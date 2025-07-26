@@ -49,7 +49,7 @@
 
   .plants {
     width: 90%;
-    margin: 0px auto;
+    margin: 0px auto 50px auto;
   }
 
   .plants h3 {
@@ -85,5 +85,35 @@
 
   .card button {
     font-size: 16px;
+  }
+
+
+  .trusted {
+    width: 90%;
+    height: 650px;
+    flex-direction: column;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .store {
+    width: 100%;
+    height: 395px;
+  }
+
+  .trust_details {
+    width: 100%;
+  }
+
+  .trust_details h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .trust_details ul li {
+    font-size: 14px;
+    margin-top: 16px;
   }
 }

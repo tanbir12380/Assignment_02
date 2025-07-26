@@ -124,7 +124,7 @@ header nav a {
 
 .plants {
   width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto 210px auto;
   text-align: center;
 }
 
@@ -211,4 +211,72 @@ header nav a {
   color: #111111;
   font-weight: 800;
   margin: 0;
+}
+
+
+/*Trusted section */
+
+.trusted {
+  width: 1140px;
+  height: 600px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.store {
+  width: 540px;
+  height: 100%;
+}
+
+.store img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.trust_details {
+  width: 540px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trust_details h3 {
+  font-family: "Noto Serif";
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+}
+
+.trust_details ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.trust_details ul li {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  left: 30%;
+  top: -21%
+}
+
+.badge img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
