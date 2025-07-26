@@ -1,0 +1,48 @@
+@media screen and (max-width:576px) {
+  header {
+    width: 361px;
+    height: 38px;
+  }
+
+  header img {
+    width: 63px;
+    height: 38px;
+    object-fit: cover;
+  }
+
+  header nav {
+    width: 113px;
+  }
+
+  .top_nav {
+    display: none;
+  }
+
+
+  .fresh {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-top: 65px;
+    margin: 0;
+    gap: 0px
+  }
+
+  .hero_image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .hero_text {
+    margin: 28px auto;
+    width: 85%;
+  }
+
+  .hero_text h2 {
+    font-size: 24px;
+    width: 70%;
+  }
+
+  .hero_text p {
+    font-size: 14px;
+  }
+}

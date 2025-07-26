@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*header_section*/
+
+
+header {
+  display: flex;
+  width: 1140px;
+  margin: 30px auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+}
+
+header img {
+  height: 82px;
+  object-fit: cover;
+  width: 135px;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  width: 415px;
+}
+
+header nav img {
+  height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 16px;
+  color: rgba(37, 36, 50, 1);
+}
+
+.secondary_color {
+  color: rgba(137, 135, 161, 1);
+}
+
+.light_nav {
+  font-weight: 400;
+}
+
+.last_nav {
+  color: black;
+}
+
+.first_nav {
+  font-weight: bold;
+}
+
+
+
+
+/* fresh section */
+
+.fresh {
+  width: 1140px;
+  height: 465px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero_image {
+  width: 570px;
+  height: 355px;
+}
+
+.hero_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_text {
+  width: 570px;
+}
+
+.hero_text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 22px;
+  margin: 13px 0 0 0;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hero_text h2 {
+  font-family: "Noto Serif";
+  font-size: 65px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero_text h2 span {
+  color: rgba(233, 90, 8, 1);
+}
