@@ -3,6 +3,15 @@ body {
   padding: 0;
 }
 
+body main button {
+  cursor: pointer;
+  transition: transform 0.35s ease-out;
+}
+
+body main button:hover {
+  transform: scale(1.05);
+}
+
 /*header_section*/
 
 
@@ -173,6 +182,7 @@ header nav a {
   width: 100%;
   height: 322px;
   margin: 0px;
+  object-fit: cover;
 }
 
 .flower_img img {
@@ -447,4 +457,76 @@ header nav a {
   display: inline-block;
   padding: 0px;
   margin: 0px;
+}
+
+.foot_container {
+  width: 1120px;
+  height: 248px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.foot_about {
+  height: 179px;
+  width: 359px;
+}
+
+.foot_about p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.foot_about div {
+  width: 135px;
+  height: 82px;
+}
+
+.foot_about div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home {
+  width: 85px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Features {
+  width: 130px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons {
+  width: 216px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons img {
+  width: 36px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foot_container a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+  text-decoration: none;
 }
